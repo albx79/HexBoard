@@ -1,8 +1,11 @@
-Bread and butter keyboard with innovative key layout.
+HexBoard
+========
+
+#### Bread and butter keyboard with innovative key layout. ####
 
 Stylish on-screen keyboard, hexagon shaped keys, sick design, fluid animation, new key layout designed for efficient single-finger typing in portrait mode.
 
-Disclaimer: the original author of this app, Matthew Trullinger AKA ridiculousx, stopped supporting it. He originally made it for himself, so releasing it to the public was an act of goodwill. I, as the mantainer of this repository, and with the approval of the original author, am making this app available as an open source project under the GPL licence, in the hope that more developers can contribute and improve on it.
+_Disclaimer_: the original author of this app, Matthew Trullinger AKA ridiculousx, stopped supporting it. He originally made it for himself, so releasing it to the public was an act of goodwill. I, as the mantainer of this repository, and with the approval of the original author, am making this app available as an open source project under the GPL licence, in the hope that more developers can contribute and improve on it.
 
 Features:
 * Hexagon shaped keys.
