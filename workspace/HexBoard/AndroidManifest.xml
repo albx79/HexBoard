@@ -1,0 +1,35 @@
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="net.ridiculousx.hexboard"
+	android:versionCode="9"
+	android:versionName="1.35">
+	<uses-sdk
+		android:minSdkVersion="3" />
+	<uses-permission
+		android:name="android.permission.VIBRATE" />
+	<application
+		android:label="HexBoard"
+		android:icon="@drawable/ic_launcher">
+		<activity
+			android:name=".HexBoardActivity"
+			android:label="HexBoard" android:launchMode="standard">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.MAIN" />
+				<category
+					android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<service
+			android:name=".HexBoardService"
+			android:permission="android.permission.BIND_INPUT_METHOD">
+			<intent-filter>
+				<action
+					android:name="android.view.InputMethod" />
+			</intent-filter>
+			<meta-data
+				android:name="android.view.im"
+				android:resource="@xml/method" />
+		</service>
+	</application>
+</manifest>
